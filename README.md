@@ -5,7 +5,7 @@ A port of the gruvbox colour scheme for Vim: <https://github.com/morhetz/gruvbox
 ## Installation
 
 1. Download `gruvbox-theme.el`, and put it in `~/.emacs.d/themes`. For example:
-   ```lisp
+   ```shell
    curl https://raw.github.com/leemachin/emacs-gruvbox-theme/master/gruvbox-theme.el > ~/.emacs.d/themes/gruvbox-theme.el
    ```
 
