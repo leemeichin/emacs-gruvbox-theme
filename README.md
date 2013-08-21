@@ -18,3 +18,7 @@ A port of the gruvbox colour scheme for Vim: <https://github.com/morhetz/gruvbox
    ```
    M-x load-theme RET gruvbox
    ```
+
+## Preview
+
+![](http://f.cl.ly/items/2S0w3d181S060g0q0C2a/Screen%20Shot%202013-08-21%20at%2014.21.44.png)
