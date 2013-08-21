@@ -38,7 +38,7 @@
   (error "requires Emacs 24 or later."))
 
 (deftheme gruvbox
-  "A dark colour theme")
+  "A retro-groove colour theme")
 
 (let ((gruvbox-background "#282828")
       (gruvbox-foreground "#ebdbb2")
