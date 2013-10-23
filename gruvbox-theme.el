@@ -70,6 +70,8 @@
    `(linum ((t (:background ,gruvbox-background))))
    `(region ((t (:background ,gruvbox-dark-1))))
    `(minibuffer-prompt ((default (:foreground ,gruvbox-green :background ,gruvbox-background :bold t))))
+   `(ag-hit-face ((t (:foreground ,gruvbox-green))))
+   `(ag-match-face ((t (:foreground ,gruvbox-red))))
 
    `(font-lock-builtin-face ((t (:foreground ,gruvbox-orange))))
    `(font-lock-constant-face ((t (:foreground ,gruvbox-purple))))
