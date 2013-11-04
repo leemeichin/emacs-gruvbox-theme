@@ -83,6 +83,12 @@
    `(company-preview-common ((t (:foreground ,gruvbox-purple))))
    `(company-preview-search ((t (:background ,gruvbox-light-2))))
 
+   ;; Git diffs
+
+   `(diff-added ((t (:inherit ,diff-changed :foreground ,gruvbox-green))))
+   `(diff-removed ((t (:inherit ,diff-changed :foreground ,gruvbox-red))))
+
+   ;; Built in syntax stuff
 
    `(font-lock-builtin-face ((t (:foreground ,gruvbox-orange))))
    `(font-lock-constant-face ((t (:foreground ,gruvbox-purple))))
