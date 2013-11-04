@@ -84,13 +84,23 @@
    `(company-preview-search ((t (:background ,gruvbox-light-2))))
 
    ;; Git diffs
-
    `(diff-added ((t (:inherit ,diff-changed :foreground ,gruvbox-green))))
    `(diff-removed ((t (:inherit ,diff-changed :foreground ,gruvbox-red))))
 
-   ;; Built in syntax stuff
+   ;; Term stuff
+   `(term-color-black ((t (:foreground ,gruvbox-dark-1))))
+   `(term-color-blue ((t (:foreground ,gruvbox-blue))))
+   `(term-color-cyan ((t (:foreground ,gruvbox-aqua))))
+   `(term-color-green ((t (:foreground ,gruvbox-green))))
+   `(term-color-magenta ((t (:foreground ,gruvbox-purple))))
+   `(term-color-red ((t (:foreground ,gruvbox-red))))
+   `(term-color-white ((t (:foreground ,gruvbox-light-1))))
+   `(term-color-yellow ((t (:foreground ,gruvbox-yellow))))
+   `(term-default-fg-color ((t (:foreground ,gruvbox-foreground))))
+   `(term-default-bg-color ((t (:background ,gruvbox-background))))
 
-   `(font-lock-builtin-face ((t (:foreground ,gruvbox-orange))))
+   ;; Built in syntax stuff
+   `(font-lock-builtin-face ((t (:foreground ,gruvbox-orange))))x
    `(font-lock-constant-face ((t (:foreground ,gruvbox-purple))))
    `(font-lock-comment-face ((t (:foreground ,gruvbox-dark-4))))
    `(font-lock-function-name-face ((t (:foreground ,gruvbox-green))))
