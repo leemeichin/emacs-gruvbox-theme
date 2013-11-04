@@ -70,8 +70,19 @@
    `(linum ((t (:background ,gruvbox-background))))
    `(region ((t (:background ,gruvbox-dark-1))))
    `(minibuffer-prompt ((default (:foreground ,gruvbox-green :background ,gruvbox-background :bold t))))
+
+   ;; Ag (the silver searcher)
    `(ag-hit-face ((t (:foreground ,gruvbox-green))))
    `(ag-match-face ((t (:foreground ,gruvbox-red))))
+
+   ;; Company mode
+   `(company-tooltip ((t (:background ,gruvbox-dark-3 :foreground ,gruvbox-blue))))
+   `(company-tooltip-selection ((t (:background ,gruvbox-light-1 :foreground ,gruvbox-red))))
+   `(company-tooltip-common ((t (:foreground ,gruvbox-purple))))
+   `(company-preview ((t (:background ,gruvbox-light-4))))
+   `(company-preview-common ((t (:foreground ,gruvbox-purple))))
+   `(company-preview-search ((t (:background ,gruvbox-light-2))))
+
 
    `(font-lock-builtin-face ((t (:foreground ,gruvbox-orange))))
    `(font-lock-constant-face ((t (:foreground ,gruvbox-purple))))
