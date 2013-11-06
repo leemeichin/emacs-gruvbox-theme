@@ -111,8 +111,19 @@
    `(font-lock-string-face ((t (:foreground ,gruvbox-green))))
    `(font-lock-variable-name-face ((t (:foreground ,gruvbox-blue))))
    `(font-lock-type-face ((t (:foreground ,gruvbox-purple))))
-   `(font-lock-warning-face ((t (:foreground ,gruvbox-red :bold t))))))
+   `(font-lock-warning-face ((t (:foreground ,gruvbox-red :bold t)))))
 
+  (custom-theme-set-variables
+   'gruvbox
+   `(ansi-color-names-vector [,gruvbox-dark-1 ,gruvbox-red ,gruvbox-green ,gruvbox-yellow
+                                              ,gruvbox-blue ,gruvbox-purple ,gruvbox-aqua ,gruvbox-light-1])))
+
+
+(defun gruvbox-set-ansi-color-names-vector ()
+  "Give comint and the like the same colours as the term colours we set"
+  (setq ansi-color-names-vector
+        [term-color-black term-color-red term-color-green term-color-yellow term-color-blue
+         term-color-purple term-color-aqua term-color-white]))
 (when load-file-name
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name)))
