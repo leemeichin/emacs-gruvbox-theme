@@ -87,6 +87,11 @@
    `(diff-changed ((t :foreground ,gruvbox-light-1)))
    `(diff-added ((t (:foreground ,gruvbox-green))))
    `(diff-removed ((t (:foreground ,gruvbox-red))))
+   `(diff-indicator-changed ((t (:inherit diff-changed))))
+   `(diff-indicator-added ((t (:inherit diff-added))))
+   `(diff-indicator-removed ((t (:inherit diff-removed))))
+
+   ;; Magit
    `(magit-diff-add ((t :foreground ,gruvbox-green)))
    `(magit-diff-del ((t :foreground ,gruvbox-red)))
 
@@ -102,6 +107,11 @@
    `(term-default-fg-color ((t (:foreground ,gruvbox-foreground))))
    `(term-default-bg-color ((t (:background ,gruvbox-background))))
 
+   ;; Compilation buffers
+   `(compilation-error ((t (:foreground ,gruvbox-red))))
+   `(compilation-info ((t (:foreground ,gruvbox-aqua))))
+   `(compilation-warning ((t (:foreground ,gruvbox-yellow))))
+   `(compilation-line-number ((t (:foreground ,gruvbox-foreground))))
    ;; Built in syntax stuff
    `(font-lock-builtin-face ((t (:foreground ,gruvbox-orange))))
    `(font-lock-constant-face ((t (:foreground ,gruvbox-purple))))
