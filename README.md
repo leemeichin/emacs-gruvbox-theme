@@ -2,6 +2,12 @@
 
 A port of the gruvbox colour scheme for Vim: <https://github.com/morhetz/gruvbox>
 
+## No longer maintained
+
+I'm no longer keeping this up to date
+
+**For an alternative version that is being maintained, point your browsers to  [Greduan/emacs-theme-gruvbox](https://github.com/Greduan/emacs-theme-gruvbox) and submit any issues/pull requests there**
+
 ## Installation
 
 1. Download `gruvbox-theme.el`, and put it in `~/.emacs.d/themes`. For example:
