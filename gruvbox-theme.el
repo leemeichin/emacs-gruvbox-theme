@@ -34,7 +34,7 @@
 ;; is based on.
 ;; https://github.com/morhetz/gruvbox
 
-(unless (>= 24 emacs-major-version)
+(unless (>= emacs-major-version 24)
   (error "requires Emacs 24 or later."))
 
 (deftheme gruvbox
